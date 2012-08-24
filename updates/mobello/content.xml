@@ -1,0 +1,1316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/D:/studio_build/build/buildRepo - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1345796069012'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <references size='8'>
+    <repository uri='http://mobello.github.com/mobello-studio/updates/' url='http://mobello.github.com/mobello-studio/updates/' type='0' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/' url='http://ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/' type='0' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/releases/indigo/' url='http://ftp.jaist.ac.jp/pub/eclipse/releases/indigo/' type='1' options='0'/>
+    <repository uri='http://mobello.github.com/mobello-studio/updates/' url='http://mobello.github.com/mobello-studio/updates/' type='1' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/' url='http://ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/' type='1' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/egit/updates/' url='http://ftp.jaist.ac.jp/pub/eclipse/egit/updates/' type='1' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/releases/indigo/' url='http://ftp.jaist.ac.jp/pub/eclipse/releases/indigo/' type='0' options='0'/>
+    <repository uri='http://ftp.jaist.ac.jp/pub/eclipse/egit/updates/' url='http://ftp.jaist.ac.jp/pub/eclipse/egit/updates/' type='0' options='0'/>
+  </references>
+  <units size='35'>
+    <unit id='com.tau.org.eclipse.wst.css.ui' version='1.0.0'>
+      <update id='com.tau.org.eclipse.wst.css.ui' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='WST CSS UI Extensions'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.org.eclipse.wst.css.ui' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='com.tau.org.eclipse.wst.css.ui' version='1.0.0'/>
+        <provided namespace='java.package' name='org.eclipse.wst.css.ui.internal.contentassist' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='org.eclipse.wst.css.ui' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.css.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.org.eclipse.wst.css.ui' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.org.eclipse.wst.css.ui;singleton:=true&#xA;Bundle-Version: 1.0.0&#xA;Fragment-Host: org.eclipse.wst.css.ui
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.common' version='1.0.0.20120824'>
+      <update id='com.tau.studio.common' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Common Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.common' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.common' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.common.contentroot' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.common.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.common.widget' version='0.0.0'/>
+        <provided namespace='java.package' name='org.json' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.modulecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.project.facet.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.common' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.common;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.designer.ui' version='1.0.0.20120824'>
+      <update id='com.tau.studio.designer.ui' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Designer UI'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.designer.ui' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.designer.ui' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.attributes' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.celleditor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.dialog' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.dialogfield' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.editstyle' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.quickStyler.filter' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.quickStyler.listener' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.quickStyler.provider' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.ui.quickStyler.sections' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.designer' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.help' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.attributes' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.quickstyler' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.browser' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.css.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.designer.ui' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.designer.ui;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.metadata' version='1.0.0'>
+      <update id='com.tau.studio.metadata' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='KT Corp.'/>
+        <property name='df_LT.pluginName' value='Metadata Model'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.metadata' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.metadata' version='1.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.metadata' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.metadata.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.metadata.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.metadata' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.metadata;singleton:=true&#xA;Bundle-Version: 1.0.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.appspresso' version='1.0.0.20120824'>
+      <update id='com.tau.studio.appspresso' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Appspresso Integration'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.appspresso' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.appspresso' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.support' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.appspresso.sdk' range='1.0.0' optional='true'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.appspresso' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.appspresso;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.contentmodel' version='1.0.0.20120824'>
+      <update id='com.tau.studio.contentmodel' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Content Model Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.contentmodel' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.contentmodel' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.contentmodel' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.contentmodel.html' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.contentmodel.taglib' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.contentmodel.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.contentmodel.xmlns' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.html.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.metadata' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.contentmodel' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.contentmodel;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.debug.core' version='0.3.3.20120824'>
+      <update id='org.chromium.debug.core' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='The Chromium Authors'/>
+        <property name='df_LT.pluginName' value='Chromium JavaScript Remote Debugger Core'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug.core' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.debug.core' version='0.3.3.20120824'/>
+        <provided namespace='java.package' name='org.chromium.debug.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.debug.core.model' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.debug.core.sourcemap' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.debug.core.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='1.2.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.3.3'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='3.4.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.debug.core' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.debug.core;singleton:=true&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.debug' version='0.3.3.20120824'>
+      <update id='org.chromium.debug' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='The Chromium Authors'/>
+        <property name='df_LT.pluginName' value='Chromium JavaScript Remote Debugger'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.debug' version='0.3.3.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.debug' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.debug; singleton:=true&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.sdk.wipbackend.wk102439' version='0.3.3.20120824'>
+      <update id='org.chromium.sdk.wipbackend.wk102439' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Google Chrome Developer Tools SDK WIP backend WK102439'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Chromium Authors'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk.wipbackend.wk102439' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.sdk.wipbackend.wk102439' version='0.3.3.20120824'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.wip.protocol' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.3.3'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.sdk.wipbackend.wk102439' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.sdk.wipbackend.wk102439;singleton:=true&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.uiframework.debug' version='1.0.0.20120824'>
+      <update id='com.tau.studio.uiframework.debug' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Debugger'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.debug' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.debug' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='osgi.bundle' name='javax.servlet' range='2.5.0'/>
+        <required namespace='osgi.bundle' name='javax.servlet.jsp' range='2.0.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug' range='0.3.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug.core' range='0.3.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug.ui' range='0.3.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.3.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='3.4.200'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.core' range='1.1.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.ui' range='1.1.0'/>
+        <required namespace='osgi.bundle' name='org.mortbay.jetty.server' range='6.1.23'/>
+        <required namespace='osgi.bundle' name='org.mortbay.jetty.util' range='6.1.23'/>
+        <required namespace='osgi.bundle' name='com.tau.studio' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.scenecompiler' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.support' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.chromedebug' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.debug' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.debug;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.sse' version='1.0.0.20120824'>
+      <update id='com.tau.studio.sse' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='SSE Support'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.sse' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.sse' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.sse' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.contentmodel' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.css.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.css.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.sse' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.sse;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.uiframework.emulator' version='1.0.0.20120824' singleton='false'>
+      <update id='com.tau.studio.uiframework.emulator' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Emulator'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.emulator' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.emulator' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.emulator' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.emulator&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio' version='1.0.0.20120824'>
+      <update id='com.tau.studio' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Studio'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.gef' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.designer' version='1.0.0.20120824'>
+      <update id='com.tau.studio.designer' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Designer'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='43'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.designer' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.designer' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.designer' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.color' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.font' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.image' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.meta' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.query' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.query.cmnode' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.css.value' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.command' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.create' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.dnd' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.html' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.html.table' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.html.table.action' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.html.table.command' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.nodeedit' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.policy' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.policy.handle' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.rangeedit' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.request' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.style' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.tool' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editing.tool.inspector' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editor.action' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editor.contextmenu' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editor.palette' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editor.selection' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editpart' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editpart.dtrenderer' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editpart.htmlmeta' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.editpart.htmlrenderer' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.preview' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.render' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.render.table' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.render.widget' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.designer.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.icu' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.draw2d' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.gef' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.html.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.genuitec.blinki.webkit.swt' range='0.6.0' optional='true'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views.properties.tabbed' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.contentmodel' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.css.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.designer' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.designer;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.chromedebug.feature.jar' version='1.1.0.20120824'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Chrome Debug'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug.feature.jar' version='1.1.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.tau.studio.chromedebug' version='1.1.0.20120824'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.tau.studio.chromedebug' version='1.1.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.tau.studio.uiframework.jsdt' version='1.0.0.20120824'>
+      <update id='com.tau.studio.uiframework.jsdt' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework JSDT'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.jsdt' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.jsdt' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.core' range='[1.1.102.v20120810,1.1.102.v20120810]'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.ui' range='[1.1.102.v20120810,1.1.102.v20120810]'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.support' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.jsdt' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.jsdt;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.help' version='1.0.0.20120824'>
+      <update id='com.tau.studio.help' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Help Plug-in'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.help' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.help' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.cheatsheets' range='3.4.100'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.help' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.help; singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.sdk.wip.eclipse' version='0.3.3.20120824'>
+      <update id='org.chromium.sdk.wip.eclipse' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk.wip.eclipse' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.sdk.wip.eclipse' version='0.3.3.20120824'/>
+        <provided namespace='java.package' name='org.chromium.sdk.wip.eclipse' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.3.3'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.sdk.wip.eclipse' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.sdk.wip.eclipse;singleton:=true&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.chromedebug.feature.group' version='1.1.0.20120824' singleton='false'>
+      <update id='com.tau.studio.chromedebug.feature.group' range='[0.0.0,1.1.0.20120824)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Chrome Debug'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug.feature.group' version='1.1.0.20120824'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wst.web_ui.feature.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug.core' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug.ui' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk.wip.eclipse' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk.wipbackend.wk102439' range='[0.3.3.20120824,0.3.3.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.common' range='[1.0.0.r06,1.0.0.r06]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.common' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug.feature.jar' range='[1.1.0.20120824,1.1.0.20120824]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.tau.studio.uiframework.scenecompiler' version='1.0.0.20120824' singleton='false'>
+      <update id='com.tau.studio.uiframework.scenecompiler' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Scene Compiler'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.scenecompiler' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.scenecompiler' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.scenecompiler' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.google.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.contentmodel' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.scenecompiler' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.scenecompiler&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.feature.jar' version='1.1.0.20120824'>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%url'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.update.feature.plugin' value='com.tau.studio'/>
+        <property name='df_LT.featureName' value='Mobello Studio'/>
+        <property name='df_LT.providerName' value='KT Corp.'/>
+        <property name='df_LT.description' value='Mobello Studio'/>
+        <property name='df_LT.copyright' value='Mobello Studio&#xA;Copright(c) 2012 KT Corp. All right reserved.'/>
+        <property name='df_LT.license' value='Mobello Studio End User License Agreement: http://mobello.github.com/studio-license/'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.feature.jar' version='1.1.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.tau.studio' version='1.1.0.20120824'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.tau.studio' version='1.1.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseUrl' url='%25licenseUrl'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25url' url='%25url'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.tau.studio.uiframework.library' version='0.1.0' singleton='false'>
+      <update id='com.tau.studio.uiframework.library' range='[0.0.0,0.1.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Library'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.library' version='0.1.0'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.library' version='0.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.library' version='0.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.library&#xA;Bundle-Version: 0.1.0
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.debug.ui' version='0.3.3.20120824'>
+      <update id='org.chromium.debug.ui' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='The Chromium Authors'/>
+        <property name='df_LT.pluginName' value='Chromium JavaScript Remote Debugger UI'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.debug.ui' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.debug.ui' version='0.3.3.20120824'/>
+        <provided namespace='java.package' name='org.chromium.debug.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.debug.ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.debug.ui.liveedit' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='12'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='3.4.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.variables' range='3.2.100'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='3.4.1'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug.core' range='0.3.3'/>
+        <required namespace='osgi.bundle' name='org.eclipse.compare' range='3.4.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.3.3'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='3.4.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk.wip.eclipse' range='0.3.3'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.debug.ui' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.debug.ui;singleton:=true&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.uiframework.feature.jar' version='1.1.0.20120824'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Support'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.feature.jar' version='1.1.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.tau.studio.uiframework' version='1.1.0.20120824'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.tau.studio.uiframework' version='1.1.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.tau.studio.uiframework.support' version='1.0.0.20120824'>
+      <update id='com.tau.studio.uiframework.support' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Support'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.support' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.support' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support.lib' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support.project' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support.registry' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.uiframework.support.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.gef' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.project.facet.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.contentmodel' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.frameworks' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.sse' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.scenecompiler' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='3.7.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.support' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.support;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='Studio' version='1.0.0.21-cJNcvE773573I7A'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Studio Updates'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='Studio' version='1.0.0.21-cJNcvE773573I7A'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.feature.group' range='[1.1.0.20120824,1.1.0.20120824]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.tau.studio.uiframework.scenedesign' version='1.0.0.20120824'>
+      <update id='com.tau.studio.uiframework.scenedesign' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Scene Design'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.scenedesign' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.uiframework.scenedesign' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='osgi.bundle' name='org.mozilla.javascript' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.designer.ui' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.quickstyler' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.support' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.uriresolver' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.uiframework.scenedesign' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.uiframework.scenedesign;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.feature.group' version='1.1.0.20120824' singleton='false'>
+      <update id='com.tau.studio.feature.group' range='[0.0.0,1.1.0.20120824)' severity='0'/>
+      <properties size='10'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='%url'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Mobello Studio'/>
+        <property name='df_LT.providerName' value='KT Corp.'/>
+        <property name='df_LT.description' value='Mobello Studio'/>
+        <property name='df_LT.copyright' value='Mobello Studio&#xA;Copright(c) 2012 KT Corp. All right reserved.'/>
+        <property name='df_LT.license' value='Mobello Studio End User License Agreement: http://mobello.github.com/studio-license/'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.feature.group' version='1.1.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='23'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.feature.group' range='[1.1.0.20120824,1.1.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.genuitec.blinki.webkit4swt.feature.group' range='[0.6.0.201104271406,0.6.0.201104271406]' optional='true'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='3.7.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.feature.group' range='2.7.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xsd.edit.feature.group' range='2.7.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.feature.group' range='3.7.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wst.web_ui.feature.feature.group' range='3.3.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xsd.feature.group' range='2.7.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wst.common.fproj.feature.group' range='3.3.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wst.server_adapters.feature.feature.group' range='3.2.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.google.common' range='[1.0.0.r06,1.0.0.r06]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.org.eclipse.wst.css.ui' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.common' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.contentmodel' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.designer' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.designer.ui' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.metadata' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.attributes' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.quickstyler' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.intro' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.help' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.feature.jar' range='[1.1.0.20120824,1.1.0.20120824]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='configure'>
+            org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/,type:0,name:WebTools Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/webtools/downloads/drops/R3.3.2/R-3.3.2-20120210195245/buildrepository/,type:1,name:WebTools Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/egit/updates/,type:0,name:Eclipse Git Plugin,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/egit/updates/,type:1,name:Eclipse Git Plugin,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/releases/indigo/,type:0,name:Indigo Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//ftp.jaist.ac.jp/pub/eclipse/releases/indigo/,type:1,name::Indigo Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//mobello.github.com/mobello-studio/updates/,type:0,name:Mobello Studio Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//mobello.github.com/mobello-studio/updates/,type:1,name::Mobello Studio Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//appspresso.com/updates/1.0/,type:0,name:Appspresso Studio Updates,enabled:true); org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//appspresso.com/updates/1.0/,type:1,name::Appspresso Studio Updates,enabled:true);
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseUrl' url='%25licenseUrl'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25url' url='%25url'>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.google.common' version='1.0.0.r06'>
+      <update id='com.google.common' range='[0.0.0,1.0.0.r06)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Google Guava'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Google'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.common' version='1.0.0.r06'/>
+        <provided namespace='osgi.bundle' name='com.google.common' version='1.0.0.r06'/>
+        <provided namespace='java.package' name='com.google.common.annotations' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.base' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.base.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.collect' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.io' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.net' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.primitives' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.common.util.concurrent' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.common' version='1.0.0.r06'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.google.common;singleton:=true&#xA;Bundle-Version: 1.0.0.r06
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.quickstyler' version='1.0.0.20120824'>
+      <update id='com.tau.studio.quickstyler' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='QuickStyler'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.quickstyler' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.quickstyler' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.quickstyler' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.quickstyler.section' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views.properties.tabbed' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.designer' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.quickstyler' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.quickstyler;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.chromium.sdk' version='0.3.3.20120824' singleton='false'>
+      <update id='org.chromium.sdk' range='[0.0.0,0.3.3.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Google Chrome Developer Tools SDK'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Chromium Authors'/>
+      </properties>
+      <provides size='20'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.chromium.sdk' version='0.3.3.20120824'/>
+        <provided namespace='osgi.bundle' name='org.chromium.sdk' version='0.3.3.20120824'/>
+        <provided namespace='java.package' name='org.chromium.sdk' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.liveeditprotocol' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.protocolparser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.protocolparser.dynamicimpl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.protocolparser.implutil' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.shellprotocol.tools.devtools' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.transport' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.v8native.processor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.v8native.protocol.input' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.v8native.protocol.output' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.internal.wip' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.tau' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.chromium.sdk.wip' version='0.0.0'/>
+        <provided namespace='java.package' name='org.json.simple' version='0.0.0'/>
+        <provided namespace='java.package' name='org.json.simple.parser' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.chromium.sdk' version='0.3.3.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.chromium.sdk&#xA;Bundle-Version: 0.3.3.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.uiframework.feature.group' version='1.1.0.20120824' singleton='false'>
+      <update id='com.tau.studio.uiframework.feature.group' range='[0.0.0,1.1.0.20120824)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Mobello Framework Support'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.feature.group' version='1.1.0.20120824'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug.feature.group' range='[1.1.0.20120824,1.1.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.wst.jsdt.feature_patch.feature.group' range='[1.0.0.20120810,1.0.0.20120810]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.wst.jsdt.feature.feature.group' range='[1.3.2.v201201112313-7G78FZvFC7sRekSz-g-nAlz,1.3.2.v201201112313-7G78FZvFC7sRekSz-g-nAlz]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.debug' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.library' range='[0.1.0,0.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.scenedesign' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.support' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.scenecompiler' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.emulator' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.sse' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.jsdt' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.appspresso' range='[1.0.0.20120824,1.0.0.20120824]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.uiframework.feature.jar' range='[1.1.0.20120824,1.1.0.20120824]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.tau.studio.chromedebug' version='1.0.0.20120824'>
+      <update id='com.tau.studio.chromedebug' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Chrome Debug'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.chromedebug' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.chromedebug' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.chromedebug' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='14'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.chromium.sdk.wip.eclipse' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.server.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.jsdt.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.browser' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.chromedebug' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.chromedebug;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.attributes' version='1.0.0.20120824'>
+      <update id='com.tau.studio.attributes' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Attribute Editor'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.attributes' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.attributes' version='1.0.0.20120824'/>
+        <provided namespace='java.package' name='com.tau.studio.attributes' version='0.0.0'/>
+        <provided namespace='java.package' name='com.tau.studio.attributes.celleditor' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.help' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.sse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.google.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.xml.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.attributes' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.attributes;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.tau.studio.intro' version='1.0.0.20120824'>
+      <update id='com.tau.studio.intro' range='[0.0.0,1.0.0.20120824)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Introduction'/>
+        <property name='org.eclipse.equinox.p2.provider' value='KT Corp.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.tau.studio.intro' version='1.0.0.20120824'/>
+        <provided namespace='osgi.bundle' name='com.tau.studio.intro' version='1.0.0.20120824'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.6.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.intro' range='3.4.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='3.6.2'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='3.6.2'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.web.ui' range='1.1.400'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.modulecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.project.facet.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.wst.common.frameworks' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.common' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.tau.studio.uiframework.support' range='1.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.tau.studio.intro' version='1.0.0.20120824'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.tau.studio.intro;singleton:=true&#xA;Bundle-Version: 1.0.0.20120824
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
